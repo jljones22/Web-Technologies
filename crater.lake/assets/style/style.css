@@ -1,0 +1,165 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+      margin: 0px;
+      padding: 0px;
+  }
+  
+   /* Color Theme Swatches in Hex */
+  .Crater_Lake_Panorama,_Aug_2013-1-hex { color: #0D2F73; }
+  .Crater_Lake_Panorama,_Aug_2013-2-hex { color: #42628C; }
+  .Crater_Lake_Panorama,_Aug_2013-3-hex { color: #77A1D9; }
+  .Crater_Lake_Panorama,_Aug_2013-4-hex { color: #54592C; }
+  .Crater_Lake_Panorama,_Aug_2013-5-hex { color: #F2F2F2; }
+  
+  img {
+    padding: 5px;
+    border: 1px solid #0D2F73;
+    margin-bottom: 15px;
+  }
+  
+  .img-style-1 {
+      display: block;
+      margin-left: 160px;
+    width: 626px;
+    height: 310px;
+  }
+  
+  .img-style-2 {
+      display: block;
+      margin-left: 180px;
+    width: 562.6px;
+    height: 157.95px;
+  }
+  
+  .img-style-3 {
+      display: block;
+      margin-left: 150px;
+    width: 659.2px;
+    height: 248px;
+  }
+  
+  .img-style-4 {
+      position: relative;
+      margin-left: 15px;
+    width: 300px;
+    height: 443.2px;
+  }
+      
+  body {
+      font-family: "Arial", sans-serif;
+      background-color: #54592C;
+  }
+  
+  #container {
+      width: 1000px;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+  
+  h1  {
+      font-size: 36px;
+      margin-bottom: 30px;
+      color: #F2F2F2;
+  }
+      
+  h2 {
+      font-size: 100%;
+  }
+  
+  p {
+      margin-bottom: 20px;
+  }
+  
+  p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  #tabs {
+      font-size: 90%;
+      margin-top: 20px;
+      margin-right: 0;
+      margin-bottom: 20px;
+      margin-left: 0;
+  }
+  
+  #tabs ul {
+      float: right;
+      padding-top: 4px;
+      width: 1000px;
+      background-color: #42628C;
+  }
+      
+  #tabs li {
+      margin-left: 8px;
+      list-style: none;
+  }
+      
+  * html #tabs li {
+      display: inline;
+  }
+          
+  #tabs li,
+  #tabs li a {
+      float: left;
+  }
+      
+  #tabs ul li a {
+      text-decoration: none;
+      padding: 8px;
+      color: #F2F2F2;
+      font-weight: bold;
+  }
+      
+  #tabs ul li.active {
+      background-color: #F2F2F2;
+  }
+      
+  #tabs ul li.active a {
+      color: #0D2F73;
+  }
+      
+  #tabs div {
+      clear: both;
+      padding: 20px;
+      min-height: 200px;
+      background-color: #F2F2F2;
+  }
+      
+  #tabs div h3 {
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+  }
+      
+  #tabs div p {
+      line-height: 150%;
+  }
+  
+  #boxed {
+    background-color: #F2F2F2;
+    padding: 8px;
+  }
+  
+  #boxed h2 {
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  
+  #boxed p {
+    padding-left: 10px;
+  }
+  
+  #boxed summary, details {
+    padding-left: 10px;
+    padding-bottom: 15px;
+  }
